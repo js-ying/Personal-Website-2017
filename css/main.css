@@ -1,0 +1,167 @@
+html,
+body {
+    height: 100%;
+    background: #B9BABB;
+    font-size: 16px;
+    font-family: "PingFang TC","Heiti TC","Microsoft JhengHei";
+}
+
+p{
+	font-size: 18px;
+}
+
+h1{
+	font-weight: 800;
+}
+
+h3{
+	font-weight: 600;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+#main{
+	position: absolute;
+	right: 15%;
+	top: 40%;
+	left: 15%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #404040;
+	text-align: center;
+}
+
+#main small{
+	display: inline;
+}
+
+@media screen and (max-width:750px) {
+	body{
+		font-size: 14px;
+	}
+	#main{
+		top: 35%;
+	}
+	#main h1{
+		font-size: 25px;
+	}
+	#main small{
+		display: block;
+		padding-top: 10px;
+	}
+	#main h3{
+		font-size: 18px;
+	}
+}
+
+.content_title{
+	position: absolute;
+	right: 15%;
+	top: 10%;
+	left: 15%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #404040;
+	text-align: center;
+}
+
+.content{
+	margin-top:40px;
+}
+
+.content .btn{
+	margin-top: 20px;
+}
+
+@media screen and (max-width:750px) {
+	.content_title{
+		top: 10%;
+	}
+	.content_title h1{
+		font-size: 25px;
+	}
+	.content_title p{
+		font-size: 16px;
+	}
+	.content_title img{
+		width: 90px;
+	}
+	.content{
+		margin-top:20px;
+	}
+	.content h3{
+		font-size: 16px;
+	}
+	.content p{
+		font-size: 13px;
+	}
+	.content .btn{
+		margin-top: 10px;
+		font-size: 12px;
+	}
+	#works_display h3{
+		font-size: 20px;
+		text-align: center;
+	}
+	#works_display .row{
+		text-align: center;
+	}
+}
+
+/*Bootstrap CSS rewrite*/
+.carousel-control.left {
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  filter: none;
+  background-repeat: none;
+}
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  filter: none;
+  background-repeat: none;
+}
+
+.row{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#works_display{
+	margin-top: 50px;
+	text-align: left;
+}
+
+#works_display .row a img{
+	width: 105px;
+}
+
+@media screen and (max-width:320px) {
+	#works_display .row a img{
+		width: 100px;
+	}
+}
+
+#works_display .row .img-thumbnail{
+	margin-right: 10px;
+	margin-top: 13px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+a{
+	color: #404040;
+}
