@@ -65,17 +65,17 @@
     </nav>
 
 
-    <div class="content_title">
+    <div class="content_title" id="works">
         <h1>作品集</h1>
         <p>2013-2016 大學時期的海報設計一覽。</p>
-		
+
         <div id="works_display">
 	    	<h3 style="">Create For My Club</h3>
 	    	<div class="row">
 		<?php for ($pi=0; $pi < 6; $pi++){ ?>
 			<a href="https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/pi<?php  echo $pi+1; ?>.jpg" class="img-thumbnail fancybox-thumb" rel="fancybox-thumb"><img src="img/works/pi<?php  echo $pi+1; ?>.jpg"></a>
-		<?php }; ?>	
-		<?php for ($ai=0; $ai < 13; $ai++){ ?>
+		<?php }; ?>
+		<?php for ($ai=0; $ai < 14; $ai++){ ?>
 			<a href="https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/ai<?php  echo $ai+1; ?>.jpg" class="img-thumbnail fancybox-thumb" rel="fancybox-thumb"><img src="img/works/ai<?php  echo $ai+1; ?>.jpg"></a>
 		<?php }; ?>
 			</div>
@@ -85,9 +85,9 @@
 	    	<div class="row">
     	<?php for ($case=0; $case < 2; $case++){ ?>
     		<a href="https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/case<?php  echo $case+1; ?>.jpg" class="img-thumbnail fancybox-thumb" rel="fancybox-thumb"><img src="img/works/case<?php  echo $case+1; ?>.jpg"></a>
-    	<?php }; ?>	
+    	<?php }; ?>
 			</div>
-	    </div>  
+	    </div>
 	    <br>
 	    <br>
 	    <br>
@@ -125,7 +125,7 @@
     ga('create', 'UA-48330157-3', 'auto');
     ga('send', 'pageview');
 
-    </script>   
+    </script>
 
 </body>
 
