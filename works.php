@@ -52,7 +52,10 @@
                         <a href="https://guand.me">風的城市：新竹</a>
                     </li>
                     <li>
-                        <a href="https://guand.me">作品集</a>
+                        <a href="https://guand.me">梁靜茹 FishLeong</a>
+                    </li>
+                    <li>
+                        <a href="https://guand.me">海報作品集</a>
                     </li>
                     <li>
                         <a href="https://guand.me">與我聯絡</a>
@@ -66,11 +69,11 @@
 
 
     <div class="content_title" id="works">
-        <h1>作品集</h1>
+        <h1>海報作品集</h1>
         <p>2013-2016 大學時期的海報設計一覽。</p>
 
         <div id="works_display">
-	    	<h3 style="">Create For My Club</h3>
+	    	<h3><span>Create For My Club</span></h3>
 	    	<div class="row">
 		<?php for ($pi=0; $pi < 6; $pi++){ ?>
 			<a href="https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/pi<?php  echo $pi+1; ?>.jpg" class="img-thumbnail fancybox-thumb" rel="fancybox-thumb"><img src="img/works/pi<?php  echo $pi+1; ?>.jpg"></a>
@@ -81,7 +84,7 @@
 			</div>
 			<br>
 
-			<h3>For Case</h3>
+			<h3><span>For Case</span></h3>
 	    	<div class="row">
     	<?php for ($case=0; $case < 2; $case++){ ?>
     		<a href="https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/case<?php  echo $case+1; ?>.jpg" class="img-thumbnail fancybox-thumb" rel="fancybox-thumb"><img src="img/works/case<?php  echo $case+1; ?>.jpg"></a>

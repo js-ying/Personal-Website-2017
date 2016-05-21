@@ -143,11 +143,17 @@ h3{
 
 #works_display{
 	margin-top: 50px;
-	text-align: left;
+}
+
+#works_display span{
+    border-left: 3px solid #888888;
+    border-right: 3px solid #888888;
+    padding: 0px 10px 0px 10px;
 }
 
 #works_display .row a img{
 	width: 105px;
+    margin: 0 auto;
 }
 
 @media screen and (max-width:320px) {
