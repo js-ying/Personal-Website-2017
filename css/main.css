@@ -73,6 +73,27 @@ body {
     padding-top:20%;
 }
 
+#work_poster{
+    width: 70%;
+}
+
+#work_poster span{
+    border-left: 3px solid #888888;
+    border-right: 3px solid #888888;
+    padding: 0px 10px 0px 10px;
+}
+
+#work_poster img{
+    width: 105px;
+    margin: 0 auto;
+}
+
+#work_poster .img-thumbnail{
+    margin-right: 10px;
+	margin-top: 15px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
 #contact img{
     display: inline-block;
 }

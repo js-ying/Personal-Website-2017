@@ -15,6 +15,17 @@
     <script src="js/jquery.js"></script>
     <script src="js/jquery.ui.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+    <!-- Add fancyBox -->
+    <link href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" rel="stylesheet">
+    <script src="fancybox/source/jquery.fancybox.pack.js"></script>
+    <link href="fancybox/source/helpers/jquery.fancybox-buttons.css" rel="stylesheet">
+    <script src="fancybox/source/helpers/jquery.fancybox-buttons.js" type="text/css" media="screen"></script>
+    <script src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+    <link href="fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" rel="stylesheet">
+    <script src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
 </head>
 <body>
 
@@ -41,7 +52,7 @@
                         <a href="#" onClick="show_content(3)">魚的故事：梁靜茹</a>
                     </li>
                     <li>
-                        <a href="#" onClick="show_content(4)">海報作品集</a>
+                        <a href="#" onClick="show_content(4)">平面設計</a>
                     </li>
                     <li>
                         <a href="#" onClick="show_content(5)">與我聯絡</a>
@@ -76,16 +87,29 @@
         <h1>魚的故事：梁靜茹</h1>
         <img class="img-responsive img-thumbnail" src="img/fish.png">
         <h3>梁靜茹 FishLeong</h3>
-        <p>從15歲開始就喜歡上的歌手，在這裡讓您瞭解梁靜茹的點點滴滴與各種魅力。</p>
+        <p>從15歲開始就被她的歌聲所吸引，在這裡讓您瞭解梁靜茹的點點滴滴與各種魅力。</p>
         <a href="./FishLeong" target="_blank"><button class="btn btn-default" disabled= "disabled">Coming Soon</button></a>
     </div>
 
-    <div id="work" class="content">
-        <h1>海報作品集</h1>
-        <img class="img-responsive img-thumbnail" src="img/works.jpg">
-        <h3>平面設計</h3>
+    <div id="2Ddesign" class="content">
+        <h1>平面設計</h1>
+        <img class="img-responsive img-thumbnail" src="img/2Ddesign.jpg">
+        <h3>海報作品集</h3>
+        <p>2013-2016 大學時期的海報作品一覽。</p>
+        <button class="btn btn-default" onClick="open_poster()">展開</button>
+    </div>
+
+    <div id="work_poster" class="content">
+        <h3>海報作品集</h3>
         <p>2013-2016 大學時期的海報設計一覽。</p>
-        <a href="./works.php"><button class="btn btn-default">展開</button></a>
+
+        <br>
+        <h3><span>Create For My Club</span></h3>
+        <div id="club_poster_display"></div>
+
+        <br>
+        <h3><span>For Case</span></h3>
+        <div id="case_poster_display"></div>
     </div>
 
     <div id="contact" class="content">
@@ -106,6 +130,8 @@
 
     function show_content(num){
         $(".content").hide();
+        $("#club_poster_display").html("");
+        $("#case_poster_display").html("");
 
         switch (num) {
             case 0:
@@ -121,12 +147,35 @@
                 $("#fish").show("drop",700);
             break;
             case 4:
-                $("#work").show("drop",700);
+                $("#2Ddesign").show("drop",700);
             break;
             case 5:
                 $("#contact").show("drop",700);
             break;
         }
+    }
+
+    function open_poster(){
+        $(".content").hide();
+        $("#work_poster").fadeIn(1000);
+
+        for (pi=1;pi<=6;pi++){
+            var draw_poster = '<a href="https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/pi' + pi + '.jpg" class="img-thumbnail fancybox-thumb" rel="fancybox-thumb"><img src="img/works/pi' + pi + '.jpg"></a>'
+            $("#club_poster_display").append(draw_poster).hide().show("clip",1000);
+        }
+
+        for (ai=1;ai<=14;ai++){
+            var draw_poster = '<a href="https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/ai' + ai + '.jpg" class="img-thumbnail fancybox-thumb" rel="fancybox-thumb"><img src="img/works/ai' + ai + '.jpg"></a>'
+            $("#club_poster_display").append(draw_poster).hide().show("clip",1000);
+        }
+
+        for (ca=1;ca<=2;ca++){
+            var draw_poster = '<a href="https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/case' + ca + '.jpg" class="img-thumbnail fancybox-thumb" rel="fancybox-thumb"><img src="img/works/case' + ca + '.jpg"></a>'
+            $("#case_poster_display").append(draw_poster).hide().show("clip",1000);
+        }
+
+        $(".fancybox-thumb").fancybox({prevEffect:'none',nextEffect:'none',helpers:{title:{type:'outside'},thumbs:{width:50,height:50}}});
+
     }
 
     /* Google Analytics */
