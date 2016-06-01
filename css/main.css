@@ -1,173 +1,78 @@
-html,
 body {
-    height: 100%;
     background: #B9BABB;
+    font-family: "PingFang TC","Heiti TC","Noto Sans TC","Microsoft JhengHei";
     font-size: 16px;
-    font-family: "PingFang TC","Heiti TC","Microsoft JhengHei";
 }
 
-p{
-	font-size: 18px;
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 100;
+  src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 300;
+  src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.otf) format('opentype');
+}
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 400;
+   src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 500;
+   src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 700;
+   src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 900;
+   src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.otf) format('opentype');
+ }
+
+.content{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 100px;
 }
 
-h1{
-	font-weight: 800;
+.content img{
+    width: 250px;
+    margin: 15px;
 }
 
-h3{
-	font-weight: 600;
-}
-
-.carousel,
-.item,
-.active {
-    height: 100%;
-}
-
-.carousel-inner {
-    height: 100%;
+.content button{
+    margin: 15px;
 }
 
 #main{
-	position: absolute;
-	right: 15%;
-	top: 40%;
-	left: 15%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	color: #404040;
-	text-align: center;
+    padding-top:20%;
 }
 
-#main small{
-	display: inline;
-}
-
-@media screen and (max-width:750px) {
-	body{
-		font-size: 14px;
-	}
-	#main{
-		top: 35%;
-	}
-	#main h1{
-		font-size: 25px;
-	}
-	#main small{
-		display: block;
-		padding-top: 10px;
-	}
-	#main h3{
-		font-size: 18px;
-	}
-}
-
-.content_title{
-	position: absolute;
-	right: 15%;
-	top: 10%;
-	left: 15%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	color: #404040;
-	text-align: center;
-}
-
-.content{
-	margin-top:40px;
-}
-
-.content .btn{
-	margin-top: 20px;
-}
-
-@media screen and (max-width:750px) {
-	.content_title{
-		top: 10%;
-	}
-	.content_title h1{
-		font-size: 25px;
-	}
-	.content_title p{
-		font-size: 16px;
-	}
-	.content_title img{
-		width: 90px;
-	}
-	.content{
-		margin-top:20px;
-	}
-	.content h3{
-		font-size: 16px;
-	}
-	.content p{
-		font-size: 13px;
-	}
-	.content .btn{
-		margin-top: 10px;
-		font-size: 12px;
-	}
-	#works_display h3{
-		font-size: 20px;
-		text-align: center;
-	}
-	#works_display .row{
-		text-align: center;
-	}
-}
-
-/*Bootstrap CSS rewrite*/
-.carousel-control.left {
-  background-image: none;
-  background-image: none;
-  background-image: none;
-  background-image: none;
-  filter: none;
-  background-repeat: none;
-}
-.carousel-control.right {
-  right: 0;
-  left: auto;
-  background-image: none;
-  background-image: none;
-  background-image: none;
-  background-image: none;
-  filter: none;
-  background-repeat: none;
-}
-
-.row{
-	margin-left: 0px;
-	margin-right: 0px;
-}
-
-#works_display{
-	margin-top: 50px;
-}
-
-#works_display span{
-    border-left: 3px solid #888888;
-    border-right: 3px solid #888888;
-    padding: 0px 10px 0px 10px;
-}
-
-#works_display .row a img{
-	width: 105px;
-    margin: 0 auto;
-}
-
-@media screen and (max-width:320px) {
-	#works_display .row a img{
-		width: 100px;
-	}
-}
-
-#works_display .row .img-thumbnail{
-	margin-right: 10px;
-	margin-top: 13px;
-	box-shadow: 0 1px 2px rgba(0,0,0,.6);
-}
-
-a{
-	color: #404040;
+#contact img{
+    display: inline-block;
 }
