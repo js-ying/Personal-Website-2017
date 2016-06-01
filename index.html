@@ -13,6 +13,7 @@
     <link href="css/main.css" rel="stylesheet">
 
     <script src="js/jquery.js"></script>
+    <script src="js/jquery.ui.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -100,34 +101,34 @@
 
     $(document).ready(function() {
         $(".content").hide();
-        $("#main").show();
+        $("#main").show("drop",700);
     });
 
     function show_content(num){
         switch (num) {
             case 0:
-                $(".content").hide(700);
-                $("#main").show(700);
+                $(".content").hide();
+                $("#main").show("drop",700);
             break;
             case 1:
-                $(".content").hide(700);
-                $("#blog").show(700);
+                $(".content").hide();
+                $("#blog").show("drop",700);
             break;
             case 2:
-                $(".content").hide(700);
-                $("#hsinchu").show(700);
+                $(".content").hide();
+                $("#hsinchu").show("drop",700);
             break;
             case 3:
-                $(".content").hide(700);
-                $("#fish").show(700);
+                $(".content").hide();
+                $("#fish").show("drop",700);
             break;
             case 4:
-                $(".content").hide(700);
-                $("#work").show(700);
+                $(".content").hide();
+                $("#work").show("drop",700);
             break;
             case 5:
-                $(".content").hide(700);
-                $("#contact").show(700);
+                $(".content").hide();
+                $("#contact").show("drop",700);
             break;
         }
     }
