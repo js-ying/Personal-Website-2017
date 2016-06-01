@@ -105,29 +105,25 @@
     });
 
     function show_content(num){
+        $(".content").hide();
+
         switch (num) {
             case 0:
-                $(".content").hide();
                 $("#main").show("drop",700);
             break;
             case 1:
-                $(".content").hide();
                 $("#blog").show("drop",700);
             break;
             case 2:
-                $(".content").hide();
                 $("#hsinchu").show("drop",700);
             break;
             case 3:
-                $(".content").hide();
                 $("#fish").show("drop",700);
             break;
             case 4:
-                $(".content").hide();
                 $("#work").show("drop",700);
             break;
             case 5:
-                $(".content").hide();
                 $("#contact").show("drop",700);
             break;
         }
