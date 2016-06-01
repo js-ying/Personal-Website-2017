@@ -1,7 +1,7 @@
 body {
     background: #B9BABB;
     font-family: "PingFang TC","Heiti TC","Noto Sans TC","Microsoft JhengHei";
-    font-size: 16px;
+    font-size: 18px;
 }
 
 @font-face {
@@ -58,6 +58,7 @@ body {
     width: 90%;
     margin: 0 auto;
     padding-top: 100px;
+    padding-bottom: 20px;
 }
 
 .content img{
@@ -89,11 +90,38 @@ body {
 }
 
 #work_poster .img-thumbnail{
-    margin-right: 10px;
+    margin-right: 15px;
 	margin-top: 15px;
 	box-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
 
 #contact img{
     display: inline-block;
+}
+
+@media(max-width:768px){
+
+    .content{
+        padding-top: 70px;
+    }
+
+    .content img{
+        width: 150px;
+    }
+
+    #main{
+        padding-top:60%;
+    }
+
+    #work_poster{
+        width: 90%;
+        padding-bottom: 40px;
+    }
+
+    #work_poster .img-thumbnail{
+        margin-right: 10px;
+        margin-left: 10px;
+    	margin-top: 15px;
+    	box-shadow: 0 1px 2px rgba(0,0,0,.6);
+    }
 }
