@@ -72,6 +72,10 @@ body {
 
 #main{
     padding-top:20%;
+    background-image: url("../img/maplestory.png");
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #work_poster{
@@ -129,7 +133,7 @@ body {
     }
 
     #main{
-        padding-top:60%;
+        padding-top:80%;
     }
 
     #work_poster{

@@ -80,7 +80,7 @@
         <h1>部落格</h1>
         <img class="img-responsive img-thumbnail" src="img/bloglogo.png">
         <h3>光 ~ の 設計角落</h3>
-        <p>始於西元2007年，設立於Yahoo! Blog，2011年移至痞客邦。<br>是一個從小學開始就讓我展現千變萬化想法的Blog。<br>2016年開始自行租用VPS與Domain，把部落格架設在Wordpress上。</p>
+        <p>始於西元2007年，設立於Yahoo! Blog，2011年移至痞客邦。<br>是一個從小學開始就讓我進行無限創作的部落格。<br>2016年開始自行租用VPS與Domain，把部落格架設在Wordpress上。</p>
         <a href="./blog" target="_blank"><button class="btn btn-default">點我進入</button></a>
     </div>
 
@@ -88,7 +88,7 @@
         <h1>風的城市：新竹</h1>
         <img class="img-responsive img-thumbnail" src="img/hsinchu.jpg">
         <h3>新竹 Hsinchu</h3>
-        <p>2016/2/18 正式上線，原為學校的作業，修改後放上來，希望讓更多人認識新竹這座美麗風都。</p>
+        <p>2016/02/18 正式上線，原為學校的作業，修改後放上來，希望讓更多人認識新竹這座美麗風都。</p>
         <a href="./hsinchu" target="_blank"><button class="btn btn-default">點我進入</button></a>
     </div>
 
@@ -153,9 +153,11 @@
         <div class="panel panel-default about_panel">
             <div class="panel-body">
                 <ul>
-                    <li>2016/2/18：正式上線。</li>
-                    <li>2016/2/20：本站開始採SSL安全認證連線（https）。</li>
-                    <li>2016/5/21：新增【梁靜茹FishLeong】頁面，但未開放連結。</li>
+                    <li>2016/02/18：正式上線。</li>
+                    <li>2016/02/20：本站開始採SSL安全認證連線（https）。</li>
+                    <li>2016/03/03：新增【海報作品集】頁面。</li>
+                    <li>2016/05/21：新增【梁靜茹FishLeong】頁面，但未開放連結。</li>
+                    <li>2016/07/03：網站程式碼翻新；統一圖片大小；首頁新增楓葉圖片；【海報作品集】更名為【平面設計】；新增【其他】頁面。</li>
                 </ul>
             </div>
         </div>
@@ -165,7 +167,7 @@
 
     $(document).ready(function() {
         $(".content").hide();
-        $("#main").show("drop",600);
+        $("#main").fadeIn(1500);
 
         $('.dropdown').on('show.bs.dropdown', function(e){
             $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
@@ -183,7 +185,7 @@
 
         switch (num) {
             case 0:
-                $("#main").show("drop",600);
+                $("#main").fadeIn(1500);
             break;
             case 1:
                 $("#blog").show("drop",600);
