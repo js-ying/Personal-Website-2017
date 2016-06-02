@@ -58,6 +58,15 @@
                         <a href="#" onClick="show_content(5)">與我聯絡</a>
                     </li>
                 </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> 其他 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" onClick="show_content(6)">關於我</a></li>
+                            <li><a href="#" onClick="show_content(7)">關於本站</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -79,7 +88,7 @@
         <h1>風的城市：新竹</h1>
         <img class="img-responsive img-thumbnail" src="img/hsinchu.jpg">
         <h3>新竹 Hsinchu</h3>
-        <p>2016/2/28 正式上線，原為學校的作業，修改後放上來，希望讓更多人認識新竹這座美麗風都。</p>
+        <p>2016/2/18 正式上線，原為學校的作業，修改後放上來，希望讓更多人認識新竹這座美麗風都。</p>
         <a href="./hsinchu" target="_blank"><button class="btn btn-default">點我進入</button></a>
     </div>
 
@@ -120,12 +129,51 @@
         <a href="mailto:jhihsiying@gmail.com"><button class="btn btn-default">點我寄信</button></a>
     </div>
 
+    <div id="about_me" class="content">
+        <h3>關於我<br><small>小Ying（光Guand）</small></h3>
+        <img class="img-responsive img-circle" src="img/profile.jpg">
+        <div class="about_panel">
+            <ul>
+                <li>21歲，男性</li>
+                <li>新竹市人</li>
+                <li>喜歡網頁設計、線上遊戲、中文歌、電視劇、動漫畫和柴犬</li>
+                <li>Program Language: C++, VB.NET, ASP.NET, HTML5+CSS3, JavaScript, PHP</li>
+                <li>Multimedia Software: DreamWeaver, Flash, PhotoImpact, PhotoShop, illustrator, MovieMaker, 會聲會影, SonyVegas</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="about_web" class="content">
+        <h3>關於本站<br><small>Guand.me</small></h3>
+        <br>
+        <p>成立於2016/2/18，希望有一個可以代表我個人的網站，所以這裡就誕生了。</p>
+        <p>網站設計是採最簡單明瞭且直覺的風格，讓人可以很輕鬆的閱讀這裡的資訊。</p>
+        <p>永久網址 guand.me，VPS 為 Digital Ocean。</p>
+        <br>
+        <div class="panel panel-default about_panel">
+            <div class="panel-body">
+                <ul>
+                    <li>2016/2/18：正式上線。</li>
+                    <li>2016/2/20：本站開始採SSL安全認證連線（https）。</li>
+                    <li>2016/5/21：新增【梁靜茹FishLeong】頁面，但未開放連結。</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
     <script>
 
     $(document).ready(function() {
         $(".content").hide();
-        $("#main").show("drop",700);
+        $("#main").show("drop",600);
+
+        $('.dropdown').on('show.bs.dropdown', function(e){
+            $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+        });
+        $('.dropdown').on('hide.bs.dropdown', function(e){
+            $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+        });
+
     });
 
     function show_content(num){
@@ -135,22 +183,29 @@
 
         switch (num) {
             case 0:
-                $("#main").show("drop",700);
+                $("#main").show("drop",600);
             break;
             case 1:
-                $("#blog").show("drop",700);
+                $("#blog").show("drop",600);
             break;
             case 2:
-                $("#hsinchu").show("drop",700);
+                $("#hsinchu").show("drop",600);
             break;
             case 3:
-                $("#fish").show("drop",700);
+                $("#fish").show("drop",600);
             break;
             case 4:
-                $("#2Ddesign").show("drop",700);
+                $("#2Ddesign").show("drop",600);
             break;
             case 5:
-                $("#contact").show("drop",700);
+                $("#contact").show("drop",600);
+            break;
+            case 6:
+                $("#about_me").fadeIn(1000);
+            break;
+            case 7:
+                $("#about_web").fadeIn(1000);
+                $("#about_web .about_panel").hide().show("clip",1500);
             break;
         }
     }
