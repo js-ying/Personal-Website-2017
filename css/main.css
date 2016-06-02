@@ -61,6 +61,10 @@ body {
     padding-bottom: 20px;
 }
 
+.content h1{
+    font-size: 32px;
+}
+
 .content img{
     width: 250px;
     margin: 15px;
