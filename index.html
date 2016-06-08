@@ -42,21 +42,11 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#" onClick="show_content(1)">部落格</a>
-                    </li>
-                    <li>
-                        <a href="#" onClick="show_content(2)">風的城市：新竹</a>
-                    </li>
-                    <li>
-                        <a href="#" onClick="show_content(3)">魚的故事：梁靜茹</a>
-                    </li>
-                    <li>
-                        <a href="#" onClick="show_content(4)">平面設計</a>
-                    </li>
-                    <li>
-                        <a href="#" onClick="show_content(5)">與我聯絡</a>
-                    </li>
+                    <li><a href="#" onClick="show_content(1)">部落格</a></li>
+                    <li><a href="#" onClick="show_content(2)">風的城市：新竹</a></li>
+                    <li><a href="#" onClick="show_content(3)">魚的故事：梁靜茹</a></li>
+                    <li><a href="#" onClick="show_content(4)">平面設計</a></li>
+                    <li><a href="#" onClick="show_content(5)">與我聯絡</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
@@ -80,7 +70,7 @@
         <h1>部落格</h1>
         <img class="img-responsive img-thumbnail" src="img/bloglogo.png">
         <h3>光 ~ の 設計角落</h3>
-        <p>始於西元2007年，設立於Yahoo! Blog，2011年移至痞客邦。<br>是一個從小學開始就讓我進行無限創作的部落格。<br>2016年開始自行租用VPS與Domain，把部落格架設在Wordpress上。</p>
+        <p>始於西元2007年，設立於Yahoo! Blog，讓小學的我擁有無限創作的設計角落；2011年移至痞客邦。<br>2016年開始自行租用VPS與Domain，把部落格架設在Wordpress上。</p>
         <a href="./blog" target="_blank"><button class="btn btn-default">點我進入</button></a>
     </div>
 
@@ -157,101 +147,17 @@
                     <li>2016/02/20：本站開始採SSL安全認證連線（https）。</li>
                     <li>2016/03/03：新增【海報作品集】頁面。</li>
                     <li>2016/05/21：新增【梁靜茹FishLeong】頁面，但未開放連結。</li>
-                    <li>2016/07/03：網站程式碼翻新；統一圖片大小；首頁新增楓葉圖片；【海報作品集】更名為【平面設計】；新增【其他】頁面。</li>
+                    <li>2016/06/08：網站程式碼翻新；統一圖片大小；首頁新增楓葉圖片；【海報作品集】更名為【平面設計】；新增【其他】頁面。</li>
                 </ul>
             </div>
         </div>
     </div>
 
-    <script>
-
-
-    $(document).ready(function() {
-        $(".content").hide();
-        $("#main").fadeIn(1500);
-
-        $('.dropdown').on('show.bs.dropdown', function(e){
-            $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
-
-        });
-        $('.dropdown').on('hide.bs.dropdown', function(e){
-            $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
-        });
-
-    });
-
-    $(document).on('click','.navbar-collapse.in',function(e) {
-        $(this).collapse('hide');
-    });
-
-    function show_content(num){
-        $(".content").hide();
-        $("#club_poster_display").html("");
-        $("#case_poster_display").html("");
-
-        switch (num) {
-            case 0:
-                $("#main").fadeIn(1500);
-            break;
-            case 1:
-                $("#blog").show("drop",600);
-            break;
-            case 2:
-                $("#hsinchu").show("drop",600);
-            break;
-            case 3:
-                $("#fish").show("drop",600);
-            break;
-            case 4:
-                $("#2Ddesign").show("drop",600);
-            break;
-            case 5:
-                $("#contact").show("drop",600);
-            break;
-            case 6:
-                $("#about_me").fadeIn(1000);
-            break;
-            case 7:
-                $("#about_web").fadeIn(1000);
-                $("#about_web .about_panel").hide().show("clip",1500);
-            break;
-        }
-    }
-
-    function open_poster(){
-        $(".content").hide();
-        $("#work_poster").fadeIn(1000);
-
-        for (pi=1;pi<=6;pi++){
-            var draw_poster = '<a href="https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/pi' + pi + '.jpg" class="img-thumbnail fancybox-thumb" rel="fancybox-thumb"><img src="img/works/pi' + pi + '.jpg"></a>'
-            $("#club_poster_display").append(draw_poster).hide().show("clip",1000);
-        }
-
-        for (ai=1;ai<=14;ai++){
-            var draw_poster = '<a href="https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/ai' + ai + '.jpg" class="img-thumbnail fancybox-thumb" rel="fancybox-thumb"><img src="img/works/ai' + ai + '.jpg"></a>'
-            $("#club_poster_display").append(draw_poster).hide().show("clip",1000);
-        }
-
-        for (ca=1;ca<=2;ca++){
-            var draw_poster = '<a href="https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/case' + ca + '.jpg" class="img-thumbnail fancybox-thumb" rel="fancybox-thumb"><img src="img/works/case' + ca + '.jpg"></a>'
-            $("#case_poster_display").append(draw_poster).hide().show("clip",1000);
-        }
-
-        $(".fancybox-thumb").fancybox({prevEffect:'none',nextEffect:'none',helpers:{title:{type:'outside'},thumbs:{width:50,height:50}}});
-
-    }
-
-    /* Google Analytics */
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-48330157-3', 'auto');
-    ga('send', 'pageview');
-
-
-    </script>
+    <script src="js/default_show.js"></script>
+    <script src="js/show_content.js"></script>
+    <script src="js/open_poster.js"></script>
+    <script src="js/navbar_effect.js"></script>
+    <script src="js/google_analytics.js"></script>
 
 </body>
 </html>
