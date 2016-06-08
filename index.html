@@ -165,17 +165,23 @@
 
     <script>
 
+
     $(document).ready(function() {
         $(".content").hide();
         $("#main").fadeIn(1500);
 
         $('.dropdown').on('show.bs.dropdown', function(e){
             $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+
         });
         $('.dropdown').on('hide.bs.dropdown', function(e){
             $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
         });
 
+    });
+
+    $(document).on('click','.navbar-collapse.in',function(e) {
+        $(this).collapse('hide');
     });
 
     function show_content(num){
