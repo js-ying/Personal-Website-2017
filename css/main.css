@@ -53,6 +53,8 @@ body {
         url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.otf) format('opentype');
  }
 
+/* 以下為統一規格的樣式 */
+
 .content{
     text-align: center;
     width: 90%;
@@ -62,7 +64,11 @@ body {
 }
 
 .content h1{
-    font-size: 32px;
+    font-size: 30px;
+}
+
+.content h3{
+    font-size: 22px;
 }
 
 .content img{
@@ -73,6 +79,8 @@ body {
 .content button{
     margin: 15px;
 }
+
+/* 以下為特定頁面樣式 */
 
 #main{
     padding-top:20%;
@@ -107,6 +115,8 @@ body {
     display: inline-block;
 }
 
+/* 以下為【其他】的樣式 */
+
 .about_panel{
     width: 400px;
     margin: 0 auto;
@@ -125,6 +135,8 @@ body {
 #about_web .panel-default{
     background-color: #DCDCDC;
 }
+
+/* 以下為響應式樣式 */
 
 @media(max-width:768px){
 
