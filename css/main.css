@@ -140,7 +140,6 @@ body {
 /* 以下為響應式樣式 */
 
 @media(max-width:768px){
-
     .content{
         padding-top: 70px;
     }
@@ -167,5 +166,18 @@ body {
 
     .about_panel, #about_web .about_panel{
         width: 90%;
+    }
+}
+
+@media(max-width:320px){
+    /*針對iphone5的響應*/
+    .content h1{
+        font-size: 26px;
+    }
+    .content h3{
+        font-size: 18px;
+    }
+    .content p, .content li{
+        font-size: 16px;
     }
 }
