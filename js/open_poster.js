@@ -1,7 +1,5 @@
 //繪出海報過程
 function open_poster(){
-    $(".content").hide();
-    $("#work_poster").fadeIn(1000);
 
     for (pi=1;pi<=6;pi++){
         var draw_poster = '<a href="https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/pi' + pi + '.jpg" class="img-thumbnail fancybox-thumb" rel="fancybox-thumb"><img src="img/works/pi' + pi + '.jpg"></a>'

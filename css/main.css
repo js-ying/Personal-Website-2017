@@ -4,55 +4,6 @@ body {
     font-size: 18px;
 }
 
-@font-face {
-  font-family: 'Noto Sans TC';
-  font-style: normal;
-  font-weight: 100;
-  src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff2) format('woff2'),
-       url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff) format('woff'),
-       url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.otf) format('opentype');
-}
-@font-face {
-  font-family: 'Noto Sans TC';
-  font-style: normal;
-  font-weight: 300;
-  src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff2) format('woff2'),
-       url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff) format('woff'),
-       url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.otf) format('opentype');
-}
-@font-face {
-   font-family: 'Noto Sans TC';
-   font-style: normal;
-   font-weight: 400;
-   src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2) format('woff2'),
-        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff) format('woff'),
-        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf) format('opentype');
- }
-@font-face {
-   font-family: 'Noto Sans TC';
-   font-style: normal;
-   font-weight: 500;
-   src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff2) format('woff2'),
-        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff) format('woff'),
-        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.otf) format('opentype');
- }
-@font-face {
-   font-family: 'Noto Sans TC';
-   font-style: normal;
-   font-weight: 700;
-   src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff2) format('woff2'),
-        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff) format('woff'),
-        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.otf) format('opentype');
- }
-@font-face {
-   font-family: 'Noto Sans TC';
-   font-style: normal;
-   font-weight: 900;
-   src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff2) format('woff2'),
-        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff) format('woff'),
-        url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.otf) format('opentype');
- }
-
 /* 以下為統一規格的樣式 */
 
 .content{
@@ -91,25 +42,43 @@ body {
     background-position: center center;
 }
 
-#work_poster{
-    width: 70%;
+#works{
+    width: 50%;
 }
 
-#work_poster span{
+/*作品集分類*/
+.nav-tabs { border-bottom: 2px solid #666; }
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
+.nav-tabs > li > a { border: none; color: #666; }
+.nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none; color: #fff !important; background: transparent; }
+.nav-tabs > li > a::after { content: ""; background: #fff; height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
+.nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{background-color: transparent;}
+
+.tab-pane { padding: 15px 0; }
+.tab-content{padding:20px}
+
+.card {background: #B9BABB none repeat scroll 0% 0%; margin-bottom: 30px; }
+
+#poster img{
+    width: 110px;
+    height: 155.65px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+}
+
+#poster .left_right_border{
     border-left: 3px solid #888888;
     border-right: 3px solid #888888;
     padding: 0px 10px 0px 10px;
 }
 
-#work_poster img{
-    width: 105px;
-    margin: 0 auto;
+.name{
+    font-size: 16px;
+    font-weight: 500;
 }
 
-#work_poster .img-thumbnail{
-    margin-right: 15px;
-	margin-top: 15px;
-	box-shadow: 0 1px 2px rgba(0,0,0,.6);
+.date{
+    font-size: 14px;
 }
 
 #contact img, #about_me img{
@@ -149,19 +118,11 @@ body {
     }
 
     #main{
-        padding-top:80%;
+        padding-top: 80%;
     }
 
-    #work_poster{
-        width: 90%;
-        padding-bottom: 40px;
-    }
-
-    #work_poster .img-thumbnail{
-        margin-right: 10px;
-        margin-left: 10px;
-    	margin-top: 15px;
-    	box-shadow: 0 1px 2px rgba(0,0,0,.6);
+    #works{
+        width: 80%;
     }
 
     .about_panel, #about_web .about_panel{

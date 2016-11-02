@@ -1,8 +1,6 @@
 //秀出各種頁面的內容和其方法、速度
 function show_content(num){
     $(".content").hide();
-    $("#club_poster_display").html("");
-    $("#case_poster_display").html("");
 
     switch (num) {
         case 0:
@@ -18,7 +16,7 @@ function show_content(num){
             $("#fish").show("drop",600);
         break;
         case 4:
-            $("#2Ddesign").show("drop",600);
+            $("#works").show("drop",600);
         break;
         case 5:
             $("#contact").show("drop",600);

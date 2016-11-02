@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="guand">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,10 +12,13 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/noto_font.css" rel="stylesheet">
 
     <script src="js/jquery.js"></script>
     <script src="js/jquery.ui.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="js/controller.js"></script>
 
     <!-- Add mousewheel plugin (this is optional) -->
     <script src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
@@ -46,7 +49,7 @@
                     <li><a href="#" onClick="show_content(1)">部落格</a></li>
                     <li><a href="#" onClick="show_content(2)">風的城市：新竹</a></li>
                     <li><a href="#" onClick="show_content(3)">魚的故事：梁靜茹</a></li>
-                    <li><a href="#" onClick="show_content(4)">平面設計</a></li>
+                    <li><a href="#" onClick="show_content(4)">作品集</a></li>
                     <li><a href="#" onClick="show_content(5)">與我聯絡</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -91,28 +94,40 @@
         <a href="./Fish-Story" target="_blank"><button class="btn btn-default">點我進入</button></a>
     </div>
 
-    <div id="2Ddesign" class="content">
-        <h1>平面設計</h1>
-        <img class="img-responsive img-thumbnail" src="img/2Ddesign.jpg">
-        <h3>海報作品集</h3>
-        <p>2013-2016 大學時期的海報作品一覽。</p>
-        <button class="btn btn-default" onClick="open_poster()">展開</button>
+    <div id="works" class="content">
+        <div class="row">
+            <div class="card">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#poster" aria-controls="poster" role="tab" data-toggle="tab">海報</a></li>
+                    <li role="presentation"><a href="#blog_template" aria-controls="blog_template" role="tab" data-toggle="tab">部落格佈景</a></li>
+                    <li role="presentation"><a href="#video" aria-controls="video" role="tab" data-toggle="tab">影片</a></li>
+                    <li role="presentation"><a href="#flash" aria-controls="flash" role="tab" data-toggle="tab">Flash</a></li>
+                </ul>
+                <div class="tab-content" ng-controller="WorksCtrl">
+                    <div role="tabpanel" class="tab-pane active" id="poster">
+                        <h4><span class="left_right_border">大學社團</span></h4>
+                        <div class="row">
+                            <div class="col-md-3" ng-repeat="work in worksList">
+                                <a href="{{ work.href}}" class="fancybox-thumb" rel="fancybox-thumb"><img ng-src="{{ work.img }}"></a><br>
+                                <span class="name">{{ work.name }}</span><br>
+                                <span class="date">{{ work.date }}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="blog_template">
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="card">
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="video">
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="flash">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div id="work_poster" class="content">
-        <h3>海報作品集</h3>
-        <p>2013-2016 大學時期的海報設計一覽。</p>
 
-        <br>
-        <h3><span>Create For My Club</span></h3>
-        <div id="club_poster_display"></div>
-
-        <br>
-        <h3><span>For Case</span></h3>
-        <div id="case_poster_display"></div>
-        <br><br><br>
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/tw/"><img alt="創用 CC 授權條款" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/tw/88x31.png" /></a><br />本著作</span>由<a xmlns:cc="http://creativecommons.org/ns#" href="https://guand.me" property="cc:attributionName" rel="cc:attributionURL">Guand</a>製作，以<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/tw/">創用CC 姓名標示-非商業性-相同方式分享 3.0 台灣 授權條款</a>釋出。
-    </div>
 
     <div id="contact" class="content">
         <h1>與我聯絡</h1>
@@ -160,9 +175,10 @@
         <p>本站目前已知問題：使用FireFox瀏覽本站會有呈現效果上的問題，但不影響內容。</p>
     </div>
 
+    <script>$(".fancybox-thumb").fancybox({prevEffect:'none',nextEffect:'none',helpers:{title:{type:'outside'},thumbs:{width:50,height:50}}});</script>
+
     <script src="js/default_show.js"></script>
     <script src="js/show_content.js"></script>
-    <script src="js/open_poster.js"></script>
     <script src="js/navbar_effect.js"></script>
     <script src="js/google_analytics.js"></script>
 
