@@ -77,8 +77,9 @@ body {
     font-weight: 500;
 }
 
-.date{
+.date , .for{
     font-size: 14px;
+    color: #5B5B5B;
 }
 
 #contact img, #about_me img{

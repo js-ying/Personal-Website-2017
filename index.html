@@ -103,13 +103,25 @@
                     <li role="presentation"><a href="#video" aria-controls="video" role="tab" data-toggle="tab">影片</a></li>
                     <li role="presentation"><a href="#flash" aria-controls="flash" role="tab" data-toggle="tab">Flash</a></li>
                 </ul>
-                <div class="tab-content" ng-controller="WorksCtrl">
+
+
+                <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active" id="poster">
                         <h4><span class="left_right_border">大學社團</span></h4>
-                        <div class="row">
-                            <div class="col-md-3" ng-repeat="work in worksList">
+                        <div class="row" ng-controller="WorksCtrl">
+                            <div class="col-md-3 col-xs-6" ng-repeat="work in worksList.club">
                                 <a href="{{ work.href}}" class="fancybox-thumb" rel="fancybox-thumb"><img ng-src="{{ work.img }}"></a><br>
                                 <span class="name">{{ work.name }}</span><br>
+                                <span class="date">{{ work.date }}</span>
+                            </div>
+                        </div>
+                        <br><br>
+                        <h4><span class="left_right_border">接案作品</span></h4>
+                        <div class="row" ng-controller="WorksCtrl">
+                            <div class="col-md-3 col-xs-6" ng-repeat="work in worksList.case">
+                                <a href="{{ work.href}}" class="fancybox-thumb" rel="fancybox-thumb"><img ng-src="{{ work.img }}"></a><br>
+                                <span class="name">{{ work.name }}</span><br>
+                                <span class="for">For {{ work.for }}</span><br>
                                 <span class="date">{{ work.date }}</span>
                             </div>
                         </div>
