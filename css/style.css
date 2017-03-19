@@ -516,6 +516,7 @@ textarea {
 }
 .fixed-header-on .site-name {
 	font-size: 24px;
+	padding: 10px 20px;
 }
 .fixed-header-on .logo {
 	-webkit-transform: scale(0.8);
@@ -554,7 +555,8 @@ textarea {
 	float: left;
 }
 .site-name {
-	font-size: 36px;
+	font-size: 28px;
+	padding: 20px 20px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -563,6 +565,7 @@ textarea {
 }
 .site-name a {
 	color: #ffffff;
+	font-size: ;
 }
 .site-name a:hover {
 	text-decoration: none;
