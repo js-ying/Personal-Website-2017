@@ -85,7 +85,7 @@ img {
 	height: auto;
 }
 .list-unstyled li {
-	padding: 5px 0;
+	padding: 0px 0px 0px 25px;
 }
 .list-horizontal {
 	padding: 15px 0;
@@ -718,4 +718,71 @@ textarea {
 	filter: alpha(opacity=100);
 	-webkit-transform: scale(1);
 	transform: scale(1);
+}
+
+
+
+/*My Style*/
+#profile-photo{
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+	border: 10px solid #339BEB;
+	border-radius: 50%;
+}
+
+#profile-intro{
+	text-align: center;
+	font-size: 26px;
+	font-weight: 900;
+}
+
+#profile-intro span{
+	color: gray;
+	font-size: 20px;
+}
+
+#short-intro{
+	font-size: 18px;
+	font-weight: 400;
+	padding-top: 3px;
+}
+
+hr{
+	border: 3px solid #eee;
+}
+
+#long-intro{
+	font-size: 18px;
+	font-weight: 400;
+	width: 80%;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+@media (max-width:767px) {
+	#long-intro{
+		width: 95%;
+	}
+}
+
+#long-intro hr{
+	margin: 10px 0px;
+	border: 1px solid #55acee;
+}
+
+.intro-category{
+	margin: 30px 0px;
+}
+
+.intro-category span{
+	border: 2px solid #339BEB;
+	padding: 5px 10px;
+	color: #339BEB;
+}
+
+.skill-type{
+	display: block;
+	text-align: center;
+	font-weight: 700;
 }
