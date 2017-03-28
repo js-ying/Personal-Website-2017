@@ -786,3 +786,8 @@ hr{
 	text-align: center;
 	font-weight: 700;
 }
+
+.learning-content{
+	text-align: center;
+	line-height: 35px;
+}
