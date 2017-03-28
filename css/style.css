@@ -172,7 +172,9 @@ blockquote {
 	background-color: #55acee;
 }
 .translucent-bg {
-	color: #ffffff;
+	color: #000000;
+	font-size: 18px;
+	text-align: center;
 }
 .default-bg h1,
 .default-bg h2,
@@ -186,7 +188,7 @@ blockquote {
 .translucent-bg h4,
 .translucent-bg h5,
 .translucent-bg h6 {
-	color: #ffffff;
+	color: #000000;
 }
 .default-bg blockquote footer,
 .translucent-bg blockquote footer {
@@ -226,7 +228,7 @@ blockquote {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 .translucent-bg.blue:after {
-	background-color: rgba(85, 172, 238, 0.7);
+	background-color: #fafafa;
 }
 .translucent-bg .container {
 	z-index: 3;
@@ -790,4 +792,8 @@ hr{
 .learning-content{
 	text-align: center;
 	line-height: 35px;
+}
+
+.translucent-bg img{
+	width: 200px;
 }
