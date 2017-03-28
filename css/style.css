@@ -722,6 +722,11 @@ textarea {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
+.overlay-container img{
+	height: 200px;
+	margin: 0 auto;
+	display: block;
+}
 
 
 
