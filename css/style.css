@@ -731,6 +731,11 @@ textarea {
 
 
 /*My Style*/
+.lead{
+	margin-top: -15px;
+	margin-bottom: 10px;
+}
+
 #profile-photo{
 	margin: 0 auto;
 	width: 200px;
