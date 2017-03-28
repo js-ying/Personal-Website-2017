@@ -306,7 +306,6 @@ blockquote {
 	min-width: 160px;
 	text-align: center;
 	border-radius: 0;
-	text-transform: uppercase;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
@@ -399,7 +398,7 @@ blockquote {
 	padding: 8px 20px;
 	border: 1px solid #cacaca;
 	color: #666666;
-	font-size: 12px;
+	font-size: 15px;
 	text-transform: uppercase;
 	font-weight: 300;
 }
@@ -702,30 +701,31 @@ textarea {
 	text-align: center;
 	width: 100%;
 	color: #ffffff;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: 300;
 }
 .overlay i {
 	position: absolute;
-	left: 50%;
+	left: 38%;
 	top: 50%;
-	font-size: 18px;
+	font-size: 17px;
 	line-height: 1x;
 	color: #ffffff;
 	margin-top: -8px;
 	margin-left: -8px;
 	text-align: center;
 }
+@media (max-width:480px) {
+	.overlay i{
+		left: 43%;
+	}
+}
+
 .overlay-container:hover .overlay {
 	opacity: 1;
 	filter: alpha(opacity=100);
 	-webkit-transform: scale(1);
 	transform: scale(1);
-}
-.overlay-container img{
-	height: 200px;
-	margin: 0 auto;
-	display: block;
 }
 
 
@@ -802,4 +802,8 @@ hr{
 
 .translucent-bg img{
 	width: 200px;
+}
+
+.image-box .btn{
+	font-size: 17px;
 }

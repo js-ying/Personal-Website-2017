@@ -9,12 +9,30 @@ guand.controller('WorksCtrl', function($scope) {
     		"ifcase": "自行練習",
     		"img": "hsinchu.jpg",
     		"name": "新竹Hsinchu",
-  			"date": "2016/02/18 ",
-    		"description": "我喜歡新竹帶給我的簡單與力量，最美麗的風之城。",
+  			"date": "2016/02/18",
+    		"description": "獻給陪伴我長大的風之城。",
     		"img-href": ""
     	},
+    	{
+    		"type": "web",
+    		"ifcase": "自行練習",
+    		"img": "fish-story.jpg",
+    		"name": "梁靜茹Fish-Story",
+  			"date": "2016/07/10",
+    		"description": "獻給我最喜愛的歌手以及她的粉絲們。",
+    		"img-href": ""
+    	},
+    	{
+    		"type": "web",
+    		"ifcase": "接案作品",
+    		"img": "nlplab.jpg",
+    		"name": "元智大學自然語言處理實驗室",
+  			"date": "2017/3",
+    		"description": "禹良治教授的實驗室網站。",
+    		"img-href": ""
+    	}
 
-
+    	/*
         {
         	"type": "poster",
         	"ifcase": "學校社團",
@@ -143,5 +161,6 @@ guand.controller('WorksCtrl', function($scope) {
             "date": "2014年(大二)",
             "img-href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/ai9.jpg"
         }
+        */
     ]
 });
