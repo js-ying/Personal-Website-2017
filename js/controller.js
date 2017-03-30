@@ -4,6 +4,15 @@ guand.controller('WorksCtrl', function($scope) {
 
     $scope.worksList = [
 
+        {
+            "type": "web",
+            "ifcase": "自行練習",
+            "img": "guand_ver1.jpg",
+            "name": "Guand.me (Ver.1)",
+            "date": "2016/02/18",
+            "description": "關於我自己。",
+            "img-href": ""
+        },
     	{
     		"type": "web",
     		"ifcase": "自行練習",
@@ -30,9 +39,7 @@ guand.controller('WorksCtrl', function($scope) {
   			"date": "2017/3/30",
     		"description": "禹良治教授的實驗室網站。",
     		"img-href": ""
-    	}
-
-    	/*
+    	},
         {
         	"type": "poster",
         	"ifcase": "學校社團",
@@ -160,7 +167,65 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "藥物濫用防制講座",
             "date": "2014年(大二)",
             "img-href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/ai9.jpg"
+        },
+        {
+            "type": "poster",
+            "img": "ai10.jpg",
+            "ifcase": "學校社團",
+            "name": "金頭腦",
+            "date": "2015年(大二)",
+            "href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/ai10.jpg"
+        },
+        {
+            "type": "poster",
+            "img": "ai11.jpg",
+            "ifcase": "學校社團",
+            "name": "六大義工評鑑宣傳",
+            "date": "2015年(大二)",
+            "href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/ai11.jpg"
+        },
+        {
+            "type": "poster",
+            "img": "ai12.jpg",
+            "ifcase": "學校社團",
+            "name": "六大義工評鑑封面",
+            "date": "2015年(大二)",
+            "href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/ai12.jpg"
+        },
+        {
+            "type": "poster",
+            "img": "ai14.jpg",
+            "ifcase": "學校社團",
+            "name": "橘衛兵幹訓中心",
+            "date": "2015年(大三)",
+            "href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/ai14.jpg"
+        },
+         {
+            "type": "poster",
+            "img": "case1.jpg",
+            "ifcase": "接案作品",
+            "name": "樂高機器人營",
+            "for": "元智大學電機系",
+            "date": "2013年(大一)",
+            "href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/case1.jpg"
+        },
+        {
+            "type": "poster",
+            "img": "case2.jpg",
+            "ifcase": "接案作品",
+            "name": "藍鵲資訊志工",
+            "for": "龍華科大社團",
+            "date": "2014年(大一)",
+            "href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/case2.jpg"
+        },
+        {
+            "type": "poster",
+            "img": "case3.jpg",
+            "ifcase": "接案作品",
+            "name": "5Q賞金獵人",
+            "for": "元智大學生輔組",
+            "date": "2016年(大四)",
+            "href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/case3.jpg"
         }
-        */
     ]
 });

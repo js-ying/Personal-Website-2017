@@ -812,3 +812,7 @@ hr{
 .image-box .btn{
 	font-size: 17px;
 }
+
+.image-box .btn-default{
+	border: none;
+}
