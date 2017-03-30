@@ -41,6 +41,213 @@ guand.controller('WorksCtrl', function($scope) {
     		"img-href": ""
     	},
         {
+            "type": "blog-theme",
+            "ifcase": "Yahoo!Blog",
+            "img": "y_blog5.jpg",
+            "name": "千年傳統全新感受",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Yahoo!Blog",
+            "img": "y_blog6.jpg",
+            "name": "敗犬女王",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Yahoo!Blog",
+            "img": "y_blog7.jpg",
+            "name": "我喜愛的歌手們",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Yahoo!Blog",
+            "img": "y_blog8.jpg",
+            "name": "那年夏天",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Yahoo!Blog",
+            "img": "y_blog9.jpg",
+            "name": "分離",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Yahoo!Blog",
+            "img": "y_blog10.jpg",
+            "name": "那一年的幸福時光",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Yahoo!Blog",
+            "img": "y_blog11.jpg",
+            "name": "藍天",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Yahoo!Blog",
+            "img": "y_blog12.jpg",
+            "name": "我的聖誕我生日",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Yahoo!Blog",
+            "img": "y_blog13.jpg",
+            "name": "海派甜心",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Yahoo!Blog",
+            "img": "y_blog14.jpg",
+            "name": "痞子英雄",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Yahoo!Blog",
+            "img": "y_blog15.jpg",
+            "name": "蔚藍盛夏",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Yahoo!Blog",
+            "img": "y_blog16.jpg",
+            "name": "近在咫尺",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Yahoo!Blog",
+            "img": "y_blog17.jpg",
+            "name": "澶恬",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Yahoo!Blog",
+            "img": "y_blog18.jpg",
+            "name": "魔導少年",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Pixnet",
+            "img": "p_blog0.jpg",
+            "name": "零",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Pixnet",
+            "img": "p_blog1.jpg",
+            "name": "痞子英雄",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Pixnet",
+            "img": "p_blog2.jpg",
+            "name": "魔導少年",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Pixnet",
+            "img": "p_blog3.jpg",
+            "name": "醉後決定愛上你",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Pixnet",
+            "img": "p_blog4.jpg",
+            "name": "美樂加油",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Pixnet",
+            "img": "p_blog5.jpg",
+            "name": "小資女孩向前衝",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Pixnet",
+            "img": "p_blog6.jpg",
+            "name": "2012是芥茉日",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Pixnet",
+            "img": "p_blog7.jpg",
+            "name": "我喜愛的歌手們",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
+            "type": "blog-theme",
+            "ifcase": "Pixnet",
+            "img": "p_blog8.jpg",
+            "name": "Best Friend",
+            "date": "",
+            "description": "",
+            "img-href": ""
+        },
+        {
         	"type": "poster",
         	"ifcase": "學校社團",
             "img": "pi1.jpg",
@@ -174,7 +381,7 @@ guand.controller('WorksCtrl', function($scope) {
             "ifcase": "學校社團",
             "name": "金頭腦",
             "date": "2015年(大二)",
-            "href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/ai10.jpg"
+            "img-href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/ai10.jpg"
         },
         {
             "type": "poster",
@@ -182,7 +389,7 @@ guand.controller('WorksCtrl', function($scope) {
             "ifcase": "學校社團",
             "name": "六大義工評鑑宣傳",
             "date": "2015年(大二)",
-            "href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/ai11.jpg"
+            "img-href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/ai11.jpg"
         },
         {
             "type": "poster",
@@ -190,7 +397,7 @@ guand.controller('WorksCtrl', function($scope) {
             "ifcase": "學校社團",
             "name": "六大義工評鑑封面",
             "date": "2015年(大二)",
-            "href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/ai12.jpg"
+            "img-href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/ai12.jpg"
         },
         {
             "type": "poster",
@@ -198,7 +405,7 @@ guand.controller('WorksCtrl', function($scope) {
             "ifcase": "學校社團",
             "name": "橘衛兵幹訓中心",
             "date": "2015年(大三)",
-            "href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/ai14.jpg"
+            "img-href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/ai14.jpg"
         },
          {
             "type": "poster",
@@ -207,7 +414,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "樂高機器人營",
             "for": "元智大學電機系",
             "date": "2013年(大一)",
-            "href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/case1.jpg"
+            "img-href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/case1.jpg"
         },
         {
             "type": "poster",
@@ -216,7 +423,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "藍鵲資訊志工",
             "for": "龍華科大社團",
             "date": "2014年(大一)",
-            "href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/case2.jpg"
+            "img-href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/case2.jpg"
         },
         {
             "type": "poster",
@@ -225,7 +432,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "5Q賞金獵人",
             "for": "元智大學生輔組",
             "date": "2016年(大四)",
-            "href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/case3.jpg"
+            "img-href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/case3.jpg"
         }
     ]
 });
