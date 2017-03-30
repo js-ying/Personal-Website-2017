@@ -27,7 +27,7 @@ guand.controller('WorksCtrl', function($scope) {
     		"ifcase": "接案作品",
     		"img": "nlplab.jpg",
     		"name": "元智大學自然語言處理實驗室",
-  			"date": "2017/3",
+  			"date": "2017/3/30",
     		"description": "禹良治教授的實驗室網站。",
     		"img-href": ""
     	}

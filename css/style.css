@@ -784,11 +784,11 @@ hr{
 	border: 1px solid #55acee;
 }
 
-.intro-category{
+.text-border{
 	margin: 30px 0px;
 }
 
-.intro-category span{
+.text-border span{
 	border: 2px solid #339BEB;
 	padding: 5px 10px;
 	color: #339BEB;
