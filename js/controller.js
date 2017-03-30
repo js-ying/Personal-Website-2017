@@ -433,6 +433,22 @@ guand.controller('WorksCtrl', function($scope) {
             "for": "元智大學生輔組",
             "date": "2016年(大四)",
             "img-href": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/case3.jpg"
+        },
+        {
+            "type": "video",
+            "img": "ms20.jpg",
+            "ifcase": "自行練習",
+            "name": "No.20 我就是我",
+            "date": "-僧侶三轉紀念影片-",
+            "img-href": "https://guand.me/blog/483/"
+        },
+        {
+            "type": "video",
+            "img": "ms21.jpg",
+            "ifcase": "自行練習",
+            "name": "No.21 下一頁的我",
+            "date": "-祭司四轉紀念影片-",
+            "img-href": "https://guand.me/blog/571"
         }
     ]
 });
