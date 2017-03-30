@@ -694,7 +694,19 @@ textarea {
 .overlay:hover {
 	text-decoration: none;
 }
-.overlay span {
+
+.work-ifcase{
+	position: absolute;
+	display: block;
+	top: 60%;
+	text-align: center;
+	width: 100%;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.work-description {
 	position: absolute;
 	display: block;
 	bottom: 10px;
@@ -706,7 +718,7 @@ textarea {
 }
 .overlay i {
 	position: absolute;
-	left: 38%;
+	left: 50%;
 	top: 50%;
 	font-size: 17px;
 	line-height: 1x;
@@ -715,11 +727,7 @@ textarea {
 	margin-left: -8px;
 	text-align: center;
 }
-@media (max-width:480px) {
-	.overlay i{
-		left: 43%;
-	}
-}
+
 
 .overlay-container:hover .overlay {
 	opacity: 1;
