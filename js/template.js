@@ -88,7 +88,7 @@
 					itemSelector: '.isotope-item',
 					layoutMode: 'masonry',
 					transitionDuration: '0.6s',
-					filter: "*"
+					filter: ".web"
 				});
 				// filter items on button click
 				$('.filters').on( 'click', 'ul.nav li a', function() {
