@@ -813,6 +813,18 @@ hr{
 	line-height: 35px;
 }
 
+#contact{
+	text-align: center;
+}
+
+#contact a{
+	color: #222222;
+}
+
+#contact a:hover{
+	color: #339BEB;
+}
+
 .translucent-bg img{
 	width: 200px;
 }
