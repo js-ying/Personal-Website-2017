@@ -20,7 +20,6 @@ guand.controller('WorksCtrl', function($scope) {
     		"name": "新竹Hsinchu",
   			"date": "2016/02/18",
     		"description": "獻給陪伴我長大的風之城。",
-            "link": "",
     		"link": "https://guand.me/hsinchu"
     	},
     	{
@@ -30,7 +29,6 @@ guand.controller('WorksCtrl', function($scope) {
     		"name": "梁靜茹Fish-Story",
   			"date": "2016/07/10",
     		"description": "獻給我最喜愛的歌手。",
-            "link": "",
     		"link": "https://guand.me/Fish-Story"
     	},
     	{
@@ -40,7 +38,6 @@ guand.controller('WorksCtrl', function($scope) {
     		"name": "元智大學自然語言處理實驗室",
   			"date": "2017/3/30",
     		"description": "替YZU NLPLAB建立的網站。",
-            "link": "",
     		"link": "https://guand.me/nlplab"
     	},
         {
@@ -50,7 +47,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "千年傳統全新感受",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/y_blog5.jpg"
         },
         {
             "type": "blog-theme",
@@ -59,7 +56,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "敗犬女王",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/y_blog6.jpg"
         },
         {
             "type": "blog-theme",
@@ -68,7 +65,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "我喜愛的歌手們(Yahoo!Blog)",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/y_blog7.jpg"
         },
         {
             "type": "blog-theme",
@@ -77,7 +74,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "那年夏天",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/y_blog8.jpg"
         },
         {
             "type": "blog-theme",
@@ -86,7 +83,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "分離",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/y_blog9.jpg"
         },
         {
             "type": "blog-theme",
@@ -95,7 +92,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "那一年的幸福時光",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/y_blog10.jpg"
         },
         {
             "type": "blog-theme",
@@ -104,7 +101,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "藍天",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/y_blog11.jpg"
         },
         {
             "type": "blog-theme",
@@ -113,7 +110,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "我的聖誕我生日",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/y_blog12.jpg"
         },
         {
             "type": "blog-theme",
@@ -122,7 +119,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "海派甜心",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/y_blog13.jpg"
         },
         {
             "type": "blog-theme",
@@ -131,7 +128,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "痞子英雄(Yahoo!Blog)",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/y_blog14.jpg"
         },
         {
             "type": "blog-theme",
@@ -140,7 +137,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "蔚藍盛夏",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/y_blog15.jpg"
         },
         {
             "type": "blog-theme",
@@ -149,7 +146,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "近在咫尺",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/y_blog16.jpg"
         },
         {
             "type": "blog-theme",
@@ -158,7 +155,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "澶恬",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/y_blog17.jpg"
         },
         {
             "type": "blog-theme",
@@ -167,7 +164,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "魔導少年(Yahoo!Blog)",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/y_blog18.jpg"
         },
         {
             "type": "blog-theme",
@@ -176,7 +173,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "零-重新開始",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/p_blog0.jpg"
         },
         {
             "type": "blog-theme",
@@ -185,7 +182,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "痞子英雄(痞客邦)",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/p_blog1.jpg"
         },
         {
             "type": "blog-theme",
@@ -194,7 +191,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "魔導少年(痞客邦)",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/p_blog2.jpg"
         },
         {
             "type": "blog-theme",
@@ -203,7 +200,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "醉後決定愛上你",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/p_blog3.jpg"
         },
         {
             "type": "blog-theme",
@@ -212,7 +209,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "美樂加油",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/p_blog4.jpg"
         },
         {
             "type": "blog-theme",
@@ -221,7 +218,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "小資女孩向前衝",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/p_blog5.jpg"
         },
         {
             "type": "blog-theme",
@@ -230,7 +227,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "2012是芥茉日",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/p_blog6.jpg"
         },
         {
             "type": "blog-theme",
@@ -239,7 +236,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "我喜愛的歌手們(痞客邦)",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/p_blog7.jpg"
         },
         {
             "type": "blog-theme",
@@ -248,7 +245,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "Best Friend",
             "date": "",
             "description": "",
-            "link": ""
+            "link": "https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/p_blog8.jpg"
         },
         {
         	"type": "poster",
