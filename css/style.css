@@ -314,7 +314,7 @@ blockquote {
 }
 .btn-default {
 	color: #55acee;
-	border: 1px solid #cccccc;
+	border: 1px solid #55acee;
 }
 .btn-default:hover {
 	color: #ffffff;
