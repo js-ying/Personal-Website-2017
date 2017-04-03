@@ -11,7 +11,7 @@ guand.controller('WorksCtrl', function($scope) {
             "name": "Guand.me (舊版)",
             "date": "2016/02/18",
             "description": "關於我。",
-            "link": ""
+            "link": "https://guand.me/guand-Ver1"
         },
     	{
     		"type": "web",
@@ -20,7 +20,8 @@ guand.controller('WorksCtrl', function($scope) {
     		"name": "新竹Hsinchu",
   			"date": "2016/02/18",
     		"description": "獻給陪伴我長大的風之城。",
-    		"link": ""
+            "link": "",
+    		"link": "https://guand.me/hsinchu"
     	},
     	{
     		"type": "web",
@@ -29,7 +30,8 @@ guand.controller('WorksCtrl', function($scope) {
     		"name": "梁靜茹Fish-Story",
   			"date": "2016/07/10",
     		"description": "獻給我最喜愛的歌手。",
-    		"link": ""
+            "link": "",
+    		"link": "https://guand.me/Fish-Story"
     	},
     	{
     		"type": "web",
@@ -38,7 +40,8 @@ guand.controller('WorksCtrl', function($scope) {
     		"name": "元智大學自然語言處理實驗室",
   			"date": "2017/3/30",
     		"description": "替YZU NLPLAB建立的網站。",
-    		"link": ""
+            "link": "",
+    		"link": "https://guand.me/nlplab"
     	},
         {
             "type": "blog-theme",

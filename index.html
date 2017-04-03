@@ -13,8 +13,12 @@
 		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
 		<link href="css/animations.css" rel="stylesheet">
-		<link href="css/style.css" rel="stylesheet">
 		<link href="css/custom.css" rel="stylesheet">
+		<!-- Add fancyBox -->
+		<link href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" rel="stylesheet">
+		<link href="fancybox/source/helpers/jquery.fancybox-buttons.css" rel="stylesheet">
+		<link href="fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
 	</head>
 
 	<body class="no-trans">
@@ -222,42 +226,16 @@
 								<div class="image-box">
 									<div class="overlay-container">
 										<img src="images/works/{{ work.img }}" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#project-1">
+										<a class="overlay fancybox-thumb" rel="fancybox-thumb" title="{{ work.name }}" target="_blank" href="{{ work.link }}">
 											<i class="fa fa-search-plus"></i>
 											<span class="work-ifcase">{{ work.ifcase }}</span>
 											<span class="work-description">{{ work.description }}</span>
 										</a>
 									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">
-										{{ work.name }}<br>
+									<a class="btn btn-default btn-block" target="_blank" href="{{ work.link }}">
+										{{ work.name }}
 									</a>
 								</div>
-								<!-- Modal -->
-								<div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<h4 class="modal-title" id="project-1-label">{{ work.type }}</h4>
-											</div>
-											<div class="modal-body">
-												<h3>{{ work.name }}</h3>
-												<div class="row">
-													<div class="col-md-6">
-														<p>{{ work.description }}</p>
-													</div>
-													<div class="col-md-6">
-														<img src="images/works/{{ work.img }}" alt="">
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
 							</div>
 						</div>
 						<!-- portfolio items end -->
@@ -294,6 +272,28 @@
 		<script type="text/javascript" src="js/custom.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
 		<script src="js/controller.js"></script>
+		<script src="fancybox/source/jquery.fancybox.pack.js"></script>
+		<script src="fancybox/source/helpers/jquery.fancybox-buttons.js" type="text/css" media="screen"></script>
+		<script src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+		<script src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+		<script>
+			$(".fancybox-thumb").fancybox({
+				prevEffect	: 'none',
+				nextEffect	: 'none',
+				helpers	: {
+					title	: {
+						type: 'inside'
+					},
+					thumbs	: {
+						width	: 50,
+						height	: 50
+					},
+					overlay: {
+				    	locked: false
+				    }
+				}
+			});
+		</script>
 
 	</body>
 </html>

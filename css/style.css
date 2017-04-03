@@ -841,3 +841,8 @@ hr{
 .image-box .btn-default{
 	border: none;
 }
+
+.fancybox-title{
+	text-align: center;
+	font-size: 17px;
+}
