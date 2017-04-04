@@ -226,7 +226,7 @@
 								<div class="image-box">
 									<div class="overlay-container">
 										<img src="images/works/{{ work.img }}" alt="">
-										<a class="overlay fancybox-thumb" rel="fancybox-thumb" title="{{ work.name }}" target="_blank" href="{{ work.link }}">
+										<a class="overlay fancybox-thumb" rel="{{ work.rel }}" title="{{ work.name }} / {{ work.date }}" target="_blank" href="{{ work.link }}">
 											<i class="fa fa-search-plus"></i>
 											<span class="work-ifcase">{{ work.ifcase }}</span>
 											<span class="work-description">{{ work.description }}</span>
@@ -282,11 +282,11 @@
 				nextEffect	: 'none',
 				helpers	: {
 					title	: {
-						type: 'inside'
+						type: 'outside'
 					},
 					thumbs	: {
-						width	: 50,
-						height	: 50
+						width	: 0,
+						height	: 0
 					},
 					overlay: {
 				    	locked: false
