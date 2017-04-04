@@ -226,7 +226,7 @@
 								<div class="image-box">
 									<div class="overlay-container">
 										<img src="images/works/{{ work.img }}" alt="">
-										<a class="overlay fancybox-thumb" rel="{{ work.rel }}" title="{{ work.name }} / {{ work.date }}" target="_blank" href="{{ work.link }}">
+										<a class="overlay fancybox" rel="{{ work.rel }}" title="{{ work.name }} / {{ work.date }}" target="_blank" href="{{ work.link }}">
 											<i class="fa fa-search-plus"></i>
 											<span class="work-ifcase">{{ work.ifcase }}</span>
 											<span class="work-description">{{ work.description }}</span>
@@ -277,16 +277,14 @@
 		<script src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
 		<script src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
 		<script>
-			$(".fancybox-thumb").fancybox({
+			$(".fancybox").fancybox({
+				openEffect  : 'elastic',
+				closeEffect : 'elastic',
 				prevEffect	: 'none',
 				nextEffect	: 'none',
 				helpers	: {
 					title	: {
 						type: 'outside'
-					},
-					thumbs	: {
-						width	: 0,
-						height	: 0
 					},
 					overlay: {
 				    	locked: false

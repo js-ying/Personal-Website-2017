@@ -42,7 +42,7 @@ guand.controller('WorksCtrl', function($scope) {
     	},
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Yahoo!Blog",
             "img": "y_blog5.jpg",
             "name": "千年傳統全新感受",
@@ -52,7 +52,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Yahoo!Blog",
             "img": "y_blog6.jpg",
             "name": "敗犬女王",
@@ -62,7 +62,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Yahoo!Blog",
             "img": "y_blog7.jpg",
             "name": "我喜愛的歌手們(Yahoo!Blog)",
@@ -72,7 +72,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Yahoo!Blog",
             "img": "y_blog8.jpg",
             "name": "那年夏天",
@@ -82,7 +82,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Yahoo!Blog",
             "img": "y_blog9.jpg",
             "name": "分離",
@@ -92,7 +92,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Yahoo!Blog",
             "img": "y_blog10.jpg",
             "name": "那一年的幸福時光",
@@ -102,7 +102,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Yahoo!Blog",
             "img": "y_blog11.jpg",
             "name": "藍天",
@@ -112,7 +112,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Yahoo!Blog",
             "img": "y_blog12.jpg",
             "name": "我的聖誕我生日",
@@ -122,7 +122,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Yahoo!Blog",
             "img": "y_blog13.jpg",
             "name": "海派甜心",
@@ -132,7 +132,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Yahoo!Blog",
             "img": "y_blog14.jpg",
             "name": "痞子英雄(Yahoo!Blog)",
@@ -142,7 +142,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Yahoo!Blog",
             "img": "y_blog15.jpg",
             "name": "蔚藍盛夏",
@@ -152,7 +152,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Yahoo!Blog",
             "img": "y_blog16.jpg",
             "name": "近在咫尺",
@@ -162,7 +162,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Yahoo!Blog",
             "img": "y_blog17.jpg",
             "name": "澶恬",
@@ -172,7 +172,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Yahoo!Blog",
             "img": "y_blog18.jpg",
             "name": "魔導少年(Yahoo!Blog)",
@@ -182,7 +182,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Pixnet",
             "img": "p_blog0.jpg",
             "name": "零-重新開始",
@@ -192,7 +192,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Pixnet",
             "img": "p_blog1.jpg",
             "name": "痞子英雄(痞客邦)",
@@ -202,7 +202,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Pixnet",
             "img": "p_blog2.jpg",
             "name": "魔導少年(痞客邦)",
@@ -212,7 +212,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Pixnet",
             "img": "p_blog3.jpg",
             "name": "醉後決定愛上你",
@@ -222,7 +222,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Pixnet",
             "img": "p_blog4.jpg",
             "name": "美樂加油",
@@ -232,7 +232,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Pixnet",
             "img": "p_blog5.jpg",
             "name": "小資女孩向前衝",
@@ -242,7 +242,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Pixnet",
             "img": "p_blog6.jpg",
             "name": "2012是芥茉日",
@@ -252,7 +252,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Pixnet",
             "img": "p_blog7.jpg",
             "name": "我喜愛的歌手們(痞客邦)",
@@ -262,7 +262,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "blog-theme",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "ifcase": "Pixnet",
             "img": "p_blog8.jpg",
             "name": "Best Friend",
@@ -272,7 +272,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
         	"type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
         	"ifcase": "學校社團",
             "img": "pi1.jpg",
             "name": "金頭腦",
@@ -281,7 +281,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "pi2.jpg",
             "ifcase": "學校社團",
             "name": "紫錐花反毒宣傳活動",
@@ -290,7 +290,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "pi3.jpg",
             "ifcase": "學校社團",
             "name": "全元逃走中",
@@ -299,7 +299,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "pi4.jpg",
             "ifcase": "學校社團",
             "name": "健康性教育宣導",
@@ -308,7 +308,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "ai8.jpg",
             "ifcase": "學校社團",
             "name": "藥物濫用防制講座",
@@ -317,7 +317,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "pi5.jpg",
             "ifcase": "學校社團",
             "name": "四大義工評鑑封面",
@@ -326,7 +326,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "pi6.jpg",
             "ifcase": "學校社團",
             "name": "社團博覽會招生系列1",
@@ -335,7 +335,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "ai1.jpg",
             "ifcase": "學校社團",
             "name": "社團博覽會招生系列2",
@@ -344,7 +344,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "ai2.jpg",
             "ifcase": "學校社團",
             "name": "社團博覽會招生系列3",
@@ -353,7 +353,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "ai3.jpg",
             "ifcase": "學校社團",
             "name": "社團博覽會招生系列4",
@@ -362,7 +362,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "ai4.jpg",
             "ifcase": "學校社團",
             "name": "新生說明會",
@@ -371,7 +371,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "ai5.jpg",
             "ifcase": "學校社團",
             "name": "期初社大",
@@ -380,7 +380,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "ai13.jpg",
             "ifcase": "學校社團",
             "name": "六大義工開訓",
@@ -389,7 +389,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "ai6.jpg",
             "ifcase": "學校社團",
             "name": "健康週 - 心幸福紫錐花",
@@ -398,7 +398,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "ai7.jpg",
             "ifcase": "學校社團",
             "name": "金頭腦",
@@ -407,7 +407,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "ai9.jpg",
             "ifcase": "學校社團",
             "name": "藥物濫用防制講座",
@@ -416,7 +416,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "ai10.jpg",
             "ifcase": "學校社團",
             "name": "金頭腦",
@@ -425,7 +425,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "ai11.jpg",
             "ifcase": "學校社團",
             "name": "六大義工評鑑宣傳",
@@ -434,7 +434,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "ai12.jpg",
             "ifcase": "學校社團",
             "name": "六大義工評鑑封面",
@@ -443,7 +443,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "ai14.jpg",
             "ifcase": "學校社團",
             "name": "橘衛兵幹訓中心",
@@ -452,7 +452,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
          {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "case1.jpg",
             "ifcase": "接案作品",
             "name": "樂高機器人營",
@@ -462,7 +462,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "case2.jpg",
             "ifcase": "接案作品",
             "name": "藍鵲資訊志工",
@@ -472,7 +472,7 @@ guand.controller('WorksCtrl', function($scope) {
         },
         {
             "type": "poster",
-            "rel": "fancybox-thumb",
+            "rel": "gallery",
             "img": "case3.jpg",
             "ifcase": "接案作品",
             "name": "5Q賞金獵人",
