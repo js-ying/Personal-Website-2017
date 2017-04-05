@@ -8,10 +8,10 @@
  */
 
 (function($){
-	$(document).ready(function(){
+
+	$(".banner-image").backstretch('images/wallpaper.jpg');
 	
-		$(".banner-image").backstretch('images/wallpaper.jpg');
-		
+	$(document).ready(function(){
 		// Fixed header
 		//-----------------------------------------------
 		$(window).scroll(function() {

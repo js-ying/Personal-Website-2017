@@ -235,12 +235,6 @@ blockquote {
 	z-index: 3;
 	position: relative;
 }
-.bg-image-1 {
-	background: url("../images/bg-image-1.jpg") 50% 0px no-repeat;
-}
-.bg-image-2 {
-	background: url("../images/bg-image-2.jpg") 50% 0px no-repeat;
-}
 
 /* Misc
 ----------------------------------------------------------------------------- */
@@ -592,6 +586,36 @@ textarea {
 	}
 	.banner{
 		font-size: 20px;
+	}
+}
+
+@media (max-width: 320px){
+	.logo{
+		-webkit-transform: scale(0.5);
+		transform: scale(0.5);
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.site-name{
+		font-size: 20px;
+		padding: 13px 0px;
+	}
+	.banner-caption h1{
+		font-size: 37px;
+	}
+	.banner{
+		font-size: 17px;
+	}
+	.navbar-toggle{
+		padding: 7px 9px;
+		margin-top: 10px;
+	}
+	.main-navigation .navbar-default .navbar-nav > li > a{
+		padding: 10px 0px;
+		font-size: 15px;
+	}
+	.navbar-nav{
+		margin: 7.5px 0px;
 	}
 }
 
