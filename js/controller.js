@@ -4,15 +4,6 @@ guand.controller('WorksCtrl', function($scope) {
 
     $scope.worksList = [
 
-        {
-            "type": "web",
-            "ifcase": "自行練習",
-            "img": "guand_ver1.jpg",
-            "name": "Guand.me (舊版)",
-            "date": "2016/02/18",
-            "description": "關於我。",
-            "link": "https://guand.me/guand-Ver1"
-        },
     	{
     		"type": "web",
     		"ifcase": "自行練習",
