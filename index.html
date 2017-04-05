@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="guand">
+<html data-ng-app="guand">
 	<head>
 		<meta charset="utf-8">
 		<title>Guand</title>
@@ -205,11 +205,11 @@
 						<!-- isotope filters end -->
 
 						<!-- portfolio items start -->
-						<div class="isotope-container row grid-space-20" ng-controller="WorksCtrl">
-							<div class="col-sm-6 col-md-3 isotope-item {{ work.type }}" ng-repeat="work in worksList">
+						<div class="isotope-container row grid-space-20" data-ng-controller="WorksCtrl">
+							<div class="col-sm-6 col-md-3 isotope-item {{ work.type }}" data-ng-repeat="work in worksList">
 								<div class="image-box">
 									<div class="overlay-container">
-										<img src="images/works/{{ work.img }}" alt="">
+										<img data-ng-src="images/works/{{ work.img }}" alt="">
 										<a class="overlay fancybox" rel="{{ work.rel }}" title="{{ work.name }} / {{ work.date }} / {{ work.ifcase }}" target="_blank" href="{{ work.link }}">
 											<i class="fa fa-search-plus"></i>
 											<span class="work-ifcase">{{ work.ifcase }}</span>
@@ -253,13 +253,13 @@
 		<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
 		<script type="text/javascript" src="plugins/jquery.appear.js"></script>
 		<script type="text/javascript" src="js/template.js"></script>
-		<script src="js/angular-1.4.3.js"></script>
-		<script src="js/controller.js"></script>
-		<script src="fancybox/source/jquery.fancybox.pack.js"></script>
-		<script src="fancybox/source/helpers/jquery.fancybox-buttons.js" type="text/css" media="screen"></script>
-		<script src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
-		<script src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
-		<script src="js/fancybox-customer.js"></script>
-		<script src="js/google-analytics.js"></script>
+		<script type="text/javascript" src="js/angular-1.4.3.js"></script>
+		<script type="text/javascript" src="js/controller.js"></script>
+		<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+		<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js" type="text/css" media="screen"></script>
+		<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+		<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+		<script type="text/javascript" src="js/fancybox-customer.js"></script>
+		<script type="text/javascript" src="js/google-analytics.js"></script>
 	</body>
 </html>
