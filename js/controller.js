@@ -29,7 +29,7 @@ guand.controller('WorksCtrl', function($scope) {
     		"name": "元智大學自然語言處理實驗室",
   			"date": "2017/3/30",
     		"description": "替YZU NLPLAB建立的網站。",
-    		"link": "https://guand.me/nlplab"
+    		"link": "http://nlp.innobic.yzu.edu.tw/"
     	},
         {
             "type": "blog-theme",
