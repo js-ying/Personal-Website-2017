@@ -8,10 +8,10 @@ guand.controller('WorksCtrl', function($scope) {
     		"type": "web",
     		"ifcase": "自行練習",
     		"img": "hsinchu.jpg",
-    		"name": "新竹Hsinchu",
+    		"name": "在風城的故事",
   			"date": "2016/02/18",
     		"description": "獻給陪伴我長大的風之城。",
-    		"link": "https://guand.me/hsinchu"
+    		"link": "http://ihsinchu.idv.tw"
     	},
     	{
     		"type": "web",
