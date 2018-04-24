@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-ng-app="guand">
+<html lang="zh-Hant-TW" data-ng-app="guand">
 	<head>
 		<meta charset="utf-8">
 		<title>Guand.me</title>
@@ -33,7 +33,7 @@
 						<div class="header-left clearfix">
 							<!-- logo -->
 							<div class="logo smooth-scroll">
-								<a href="#banner"><img id="logo" src="images/logoG.png" alt="Worthy"></a>
+								<a href="#banner"><img id="logo" src="images/logoG.png" alt="site-logo"></a>
 							</div>
 							<!-- name-and-slogan -->
 							<div class="site-name-and-slogan smooth-scroll">
@@ -104,7 +104,7 @@
 				<h1 id="about" class="title text-center">關於<span>我</span></h1>
 				<p class="lead text-center">About me</p>
 				<div class="space"></div>
-				<img id="profile-photo" src="images/profile.jpg">
+				<img id="profile-photo" src="images/profile.jpg" alt="profile-photo">
 				<br>
 				<div id="profile-intro">
 
@@ -125,14 +125,14 @@
 							<ul class="list-unstyled">
 								<li><i class="fa fa-caret-right pr-10 text-colored"></i>HTML</li>
 								<li><i class="fa fa-caret-right pr-10 text-colored"></i>CSS</li>
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i>Javascript (jQuery)</li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i>Javascript (jQuery, Vue)</li>
 							</ul>
 						</div>
 						<div class="col-md-4">
 							<span class="skill-type">Server-End</span>
 							<hr>
 							<ul class="list-unstyled">
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i>PHP</li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i>PHP (Laravel)</li>
 								<li><i class="fa fa-caret-right pr-10 text-colored"></i>ASP.Net</li>
 								<li><i class="fa fa-caret-right pr-10 text-colored"></i>MySQL</li>
 							</ul>
@@ -171,7 +171,7 @@
 				<h1 id="blog"  class="text-center title">部落格</h1>
 				<p class="lead text-center">Blog</p>
 				<div class="space"></div>
-				<img class="img-thumbnail" src="images/blog-logo.png">
+				<img class="img-thumbnail" src="images/blog-logo.png" alt="blog-logo">
 				<h3><strong>光 ~ の 設計角落</strong></h3>
 				<p>
 					2007年Yahoo!Blog → 2011年痞客邦 → 2016年Wordpress。<br>
@@ -210,7 +210,7 @@
 							<div class="col-sm-6 col-md-3 isotope-item {{ work.type }}" data-ng-repeat="work in worksList">
 								<div class="image-box">
 									<div class="overlay-container">
-										<img data-ng-src="images/works/{{ work.img }}" alt="">
+										<img data-ng-src="https://s3.amazonaws.com/jhihsiyingweb/Guand.me/works/{{ work.img }}" alt="{{ work.img }}">
 										<a class="overlay fancybox" rel="{{ work.rel }}" title="{{ work.name }} / {{ work.date }} / {{ work.ifcase }}" target="_blank" href="{{ work.link }}">
 											<i class="fa fa-search-plus"></i>
 											<span class="work-ifcase">{{ work.ifcase }}</span>
@@ -238,7 +238,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<p class="text-center">Last updated on 2017/04. Modify from <a target="_blank" href="http://htmlcoder.me">HtmlCoder</a>'s free theme.</p>
+							<p class="text-center">Last updated on 2018/04. Modify from <a target="_blank" href="http://htmlcoder.me">HtmlCoder</a>'s free theme.</p>
 						</div>
 					</div>
 				</div>
@@ -254,13 +254,13 @@
 		<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
 		<script type="text/javascript" src="plugins/jquery.appear.js"></script>
 		<script type="text/javascript" src="js/template.js"></script>
-		<script type="text/javascript" src="js/angular-1.4.3.js"></script>
+    <script type="text/javascript" src="js/angular-1.4.3.js"></script>
 		<script type="text/javascript" src="js/controller.js"></script>
 		<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
 		<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js" type="text/css" media="screen"></script>
 		<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
 		<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
-		<script type="text/javascript" src="js/fancybox-customer.js"></script>
-		<script type="text/javascript" src="js/google-analytics.js"></script>
+    <script type="text/javascript" src="js/fancybox-customer.js"></script>
+    <script type="text/javascript" src="js/google-analytics.js"></script>
 	</body>
 </html>
