@@ -1,6 +1,6 @@
 # Guand.me
-Myself.<br>
-[https://guand.me](https://guand.me)
+個人網站 2017 年版。
+[https://guand2017.jsy.tw](https://guand2017.jsy.tw)
 
 ## 關於我
 擅長領域、學習動機與聯絡方式。
