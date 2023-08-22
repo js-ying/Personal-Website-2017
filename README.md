@@ -1,7 +1,5 @@
 # Guand.me
-
-個人網站 2017 年版。
-
+個人網站 2017 年版。<br />
 Demo: [https://guand2017.jsy.tw](https://guand2017.jsy.tw)
 
 ## 關於我
