@@ -19,7 +19,7 @@ guand.controller('WorksCtrl', function ($scope) {
       "name": "梁靜茹Fish-Story",
       "date": "2016/07/10",
       "description": "獻給我最喜愛的歌手。",
-      "link": "https://guand.me/Fish-Story"
+      "link": "https://fish.jsy.tw"
     },
     {
       "type": "web",
@@ -477,7 +477,7 @@ guand.controller('WorksCtrl', function ($scope) {
       "name": "No.20 我就是我",
       "date": "",
       "description": "- 楓之谷僧侶三轉紀念影片 -",
-      "link": "https://guand.me/blog/483/"
+      "link": "https://blog.jsy.tw/483/maplestory-bishop-third-job-video/"
     },
     {
       "type": "video",
@@ -486,7 +486,7 @@ guand.controller('WorksCtrl', function ($scope) {
       "name": "No.21 下一頁的我",
       "date": "",
       "description": "- 楓之谷祭司四轉紀念影片 -",
-      "link": "https://guand.me/blog/571"
+      "link": "https://blog.jsy.tw/571/maplestory-priest-fourth-job-video/"
     }
   ]
 });
